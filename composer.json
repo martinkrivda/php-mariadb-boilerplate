@@ -1,0 +1,15 @@
+{
+  "name": "php-db-boilerplate/app",
+  "description": "Procedural PHP boilerplate with Nginx + PHP-FPM.",
+  "type": "project",
+  "require": {
+    "php": ">=8.5",
+    "phpmailer/phpmailer": "^7.0.1"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^4.0.1"
+  },
+  "scripts": {
+    "phpcs": "phpcs"
+  }
+}

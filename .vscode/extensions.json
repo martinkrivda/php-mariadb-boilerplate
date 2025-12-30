@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "phpactor.vscode-phpactor",
+    "bmewburn.vscode-intelephense-client",
+    "devsense.phptools-vscode",
+    "ikappas.phpcs",
+    "ms-azuretools.vscode-docker",
+    "redhat.vscode-yaml",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens"
+  ]
+}
