@@ -15,7 +15,8 @@ Minimalist, production-ready skeleton for a procedural PHP app running on Nginx 
 Prerequisites (step-by-step):
 
 1. Install Git:
-   - macOS (Homebrew): install Homebrew if needed (https://brew.sh), then `brew install git`
+   - macOS (Homebrew): install Homebrew only if it's not available (https://brew.sh):
+     `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`, then `brew install git`
    - macOS (no Homebrew): `xcode-select --install`
    - Windows: download Git from https://git-scm.com/download/win
    - Linux: install via your package manager (e.g. `apt install git` or `dnf install git`)
@@ -145,12 +146,15 @@ If your MariaDB already runs elsewhere, use `docker-compose.local.yaml` or the `
 This requires the MariaDB service to be exposed on `127.0.0.1:3306` (already set in `docker-compose.local-with-db.yaml`).
 
 macOS (Sequel Pro):
-1) Install Sequel Pro: https://sequelpro.com/download
-2) Start the stack:
+
+1. Install Sequel Pro: https://sequelpro.com/download
+2. Start the stack:
+
 ```sh
 docker compose -f docker-compose.local-with-db.yaml up --build
 ```
-3) Connect:
+
+3. Connect:
    - Host: `127.0.0.1`
    - Port: `3306`
    - Username: `app`
@@ -158,12 +162,15 @@ docker compose -f docker-compose.local-with-db.yaml up --build
    - Database: `php-boilerplate-db`
 
 Windows (HeidiSQL):
-1) Install HeidiSQL: https://www.heidisql.com/download.php
-2) Start the stack:
+
+1. Install HeidiSQL: https://www.heidisql.com/download.php
+2. Start the stack:
+
 ```sh
 docker compose -f docker-compose.local-with-db.yaml up --build
 ```
-3) Create a new MariaDB/MySQL session with:
+
+3. Create a new MariaDB/MySQL session with:
    - Host: `127.0.0.1`
    - Port: `3306`
    - User: `app`
