@@ -21,8 +21,7 @@ Prerequisites (step-by-step):
    - Windows: download Git from https://git-scm.com/download/win
    - Linux: install via your package manager (e.g. `apt install git` or `dnf install git`)
 2. Install Docker:
-   - macOS (Homebrew): `brew install --cask docker`, then open Docker Desktop once
-   - macOS (no Homebrew): download Docker Desktop https://www.docker.com/products/docker-desktop/, then install
+   - macOS: download Docker Desktop https://www.docker.com/products/docker-desktop/, then install
    - Windows: Docker Desktop (WSL2 enabled) https://www.docker.com/products/docker-desktop/, then install
    - Linux: install Docker Engine + Compose plugin via https://docs.docker.com/engine/install/
 
