@@ -15,16 +15,15 @@ Minimalist, production-ready skeleton for a procedural PHP app running on Nginx 
 Prerequisites (step-by-step):
 
 1. Install Git:
-   macOS (Homebrew): install Homebrew only if it's not available (https://brew.sh):
-   `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-   then run: `brew install git`
-   macOS (no Homebrew): `xcode-select --install`
-   Windows: download Git from https://git-scm.com/download/win
-   Linux: install via your package manager (e.g. `apt install git` or `dnf install git`)
+   - macOS (Homebrew): install Homebrew if needed (https://brew.sh), then `brew install git`
+   - macOS (no Homebrew): `xcode-select --install`
+   - Windows: download Git from https://git-scm.com/download/win
+   - Linux: install via your package manager (e.g. `apt install git` or `dnf install git`)
 2. Install Docker:
-   macOS: Docker Desktop https://www.docker.com/products/docker-desktop/
-   Windows: Docker Desktop (WSL2 enabled) https://www.docker.com/products/docker-desktop/
-   Linux: Docker Engine + Compose plugin https://docs.docker.com/engine/install/
+   - macOS (Homebrew): `brew install --cask docker`, then open Docker Desktop once
+   - macOS (no Homebrew): download Docker Desktop https://www.docker.com/products/docker-desktop/, then install
+   - Windows: Docker Desktop (WSL2 enabled) https://www.docker.com/products/docker-desktop/, then install
+   - Linux: install Docker Engine + Compose plugin via https://docs.docker.com/engine/install/
 
 Steps:
 
