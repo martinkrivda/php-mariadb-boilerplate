@@ -12,6 +12,7 @@ Thumbs.db
 /vendor/
 *.log
 .phpcs-cache
+.phpunit.result.cache
 
 # Docker
 **/data/

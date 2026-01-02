@@ -1,6 +1,7 @@
 <?php
 
 require_once __DIR__ . '/env.php';
+require_once __DIR__ . '/utils.php';
 
 error_reporting(E_ALL);
 ini_set('display_errors', '0');

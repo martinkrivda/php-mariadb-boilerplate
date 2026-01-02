@@ -123,6 +123,20 @@ Run checks:
 ./vendor/bin/phpcs
 ```
 
+## Unit tests (PHPUnit)
+
+Install dev dependencies:
+
+```sh
+composer install
+```
+
+Run tests:
+
+```sh
+composer test
+```
+
 ## External DB only
 
 If your MariaDB already runs elsewhere, use `docker-compose.local.yaml` or the `docker run` example and point `DB_HOST` to your external database host. Do not start the local MariaDB service.

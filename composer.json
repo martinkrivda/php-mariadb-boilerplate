@@ -7,9 +7,11 @@
     "phpmailer/phpmailer": "^7.0.1"
   },
   "require-dev": {
+    "phpunit/phpunit": "^11.3",
     "squizlabs/php_codesniffer": "^4.0.1"
   },
   "scripts": {
-    "phpcs": "phpcs"
+    "phpcs": "phpcs",
+    "test": "phpunit"
   }
 }
